@@ -1,0 +1,7 @@
+{
+  "name": "Adapt-Routes",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
