@@ -1,0 +1,61 @@
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-button id="back">
+          <ion-icon name="arrow-back-outline"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content id="login">
+    <ion-grid>
+      <ion-row>
+        <ion-col size="12" size-sm>
+          <ion-text>
+            <h1>Cadastro</h1>
+          </ion-text>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="12" size-sm>
+          <ion-item>
+            <ion-label position="floating" autocapitalize="on">Nome</ion-label>
+            <ion-input id="name"></ion-input>
+          </ion-item>
+        </ion-col>
+        <ion-col size="" size-lg offset="12"></ion-col>
+        <ion-col size="12" size-sm>
+          <ion-item>
+            <ion-label position="floating" autocapitalize="on">E-mail</ion-label>
+            <ion-input type="email" id="email"></ion-input>
+          </ion-item>
+        </ion-col>
+        <ion-col size="" size-lg offset="12"></ion-col>
+        <ion-col size="12" size-sm>
+          <ion-item>
+            <ion-label position="floating">Senha</ion-label>
+            <ion-input id="password" type="password"></ion-input>
+          </ion-item>
+        </ion-col>
+        <ion-col size="" size-lg offset="12"></ion-col>
+        <ion-col size="12" size-sm>
+          <ion-item>
+            <ion-label position="floating">Repita a Senha</ion-label>
+            <ion-input type="password"></ion-input>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    <ion-col size="" size-lg offset="12"></ion-col>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="6" size-sm>
+          <div>
+            <ion-button id="sucess" color="tertiary">Concluir</ion-button>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-content>
